@@ -1,7 +1,7 @@
 # czech-court-citations-dataset
 Czech Court Citations Dataset
 
-This is the Czech Court Citations dataset. This corpus contains citations of court decisions extracted from texts of decisions of the three Czech apex courts - the Constitutional Court, the Supreme Court and the Supreme Administrative Court. 
+This is the Czech Court Citations dataset. This dataset contains citations of the court decisions extracted from texts of decisions of the three Czech apex courts - the Constitutional Court, the Supreme Court and the Supreme Administrative Court. 
 
 For extraction of the court citations the Annotated Corpus of Czech Case Law for Reference Recognition Tasks, containing 
 350 manually annotated decisions for reference extraction of the Constitutional Court, the Supreme Court and the Supreme Administrative Court, was used as a training dataset for a machine learning algorithm. 
@@ -26,7 +26,7 @@ For example 'ConCo-ref-SupCo' is a file containing all the extracted citations o
 
 Files contain unique rows, one citation for each row. Citations are accompanied by metadata:
 
-source_file: the name of a source text file of the decision
+source_file: the name of a source text file of the text of the decision, this file can be found in the Czech Court Decisions Corpus
 
 docket_number: the identification of a source court decision
 
@@ -36,4 +36,4 @@ court: identification of court publishing the source decision in abbreviation
 
 reference: the identification of a goal court decision
 
-source_file2: the name of a goal court decision
+source_file2: the name of a goal text file of the text of the court decision, this file can be found in the Czech Court Decisions Corpus
