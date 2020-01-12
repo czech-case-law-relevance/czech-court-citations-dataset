@@ -5,8 +5,7 @@ Czech Court Citations Dataset
 
 This is the Czech Court Citations dataset. This dataset contains citations of the court decisions extracted from texts of decisions of the three Czech apex courts - the Constitutional Court, the Supreme Court and the Supreme Administrative Court. 
 
-The Czech Court Citations Dataset contains 9 files in .csv data format, 3 files for each court, divided according to the three courts. In this dataset, abbreviations of the court names are used: 'ConCo' for the Constitutional Court, 'SupCo' for the Supreme Court and 'SupAdmCo' for the Supreme Administrative Court. Files are described according to the source judicial decision (from) and the goal judicial decision (to).
-For example 'ConCo-ref-SupCo' is a file containing all the extracted citations of the Supreme Court decisions from the Constitutional Court decisions.
+The Czech Court Citations Dataset contains 12 files in .csv data format, 4 files for each court, divided according to the three courts. In this dataset, abbreviations of the court names are used: 'ConCo' for the Constitutional Court, 'SupCo' for the Supreme Court and 'SupAdmCo' for the Supreme Administrative Court. Files are described according to the source judicial decision (from) and the goal judicial decision (to). For example 'ConCo-ref-SupCo' is a file containing all the extracted citations of the Supreme Court decisions from the Constitutional Court decisions. The dataset contains 3 files in the category of the "rest" citations, these files contain citations of any other public authority then the three Czech apex courts.
 
 Files contain unique rows, one citation for each row. Citations are accompanied by metadata:
 
@@ -24,8 +23,9 @@ source_file2: the name of a goal text file of the text of the court decision, th
 
 Dataset statistics
 
-TABLE unparsed
-TABLE parsed
+Court             Supreme Court         Supreme Adm. Court              Constitutional Court
+
+This dataset is propersly described in: (to be published)
 
 For extraction of the court citations the Annotated Corpus of Czech Case Law for Reference Recognition Tasks, containing 
 350 manually annotated decisions for reference extraction of the Constitutional Court, the Supreme Court and the Supreme Administrative Court, was used as a training dataset for a machine learning algorithm. 
