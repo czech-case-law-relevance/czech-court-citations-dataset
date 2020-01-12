@@ -21,11 +21,8 @@ reference: the identification of a goal court decision
 
 source_file2: the name of a goal text file of the text of the court decision, this file can be found in the Czech Court Decisions Corpus
 
-Dataset statistics
 
-Court             Supreme Court         Supreme Adm. Court              Constitutional Court
-
-This dataset is propersly described in: (to be published)
+This dataset is properly described in: (to be published)
 
 For extraction of the court citations the Annotated Corpus of Czech Case Law for Reference Recognition Tasks, containing 
 350 manually annotated decisions for reference extraction of the Constitutional Court, the Supreme Court and the Supreme Administrative Court, was used as a training dataset for a machine learning algorithm. 
@@ -45,3 +42,4 @@ This corpus is properly described in: NOVOTNÁ, Tereza a Jakub HARAŠTA. The Cze
 
 This corpus is freely available at LINDAT/CLARIN repository: https://lindat.mff.cuni.cz/repository/xmlui/handle/11372/LRT-3052.
 
+In the case of any further questions, please contact Jakub Harašta: jakub.harasta@law.muni.cz
