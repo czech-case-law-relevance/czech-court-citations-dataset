@@ -29,7 +29,7 @@ Files in the category of the *'rest' citations* are files containing citations o
 
 ### Data statistics
 
-References sorted by categories, unparsed
+References sorted by categories, unlinked
 
 | Court | Supreme Court | Supreme Adm. Court | Constitutional Court | Rest |
 | ----- | ------------- | ------------------ | -------------------- | ---- |
@@ -37,7 +37,7 @@ References sorted by categories, unparsed
 | Supreme Administrative Court cites | 1 342 | 90 217 | 14 756 | 20 709 |
 | Constitutional Court cites | 8 486 | 2 877 | 137 308 | 45 689 |
 
-References sorted by categories, parsed
+References sorted by categories, linked
 
 | Court | Supreme Court | Supreme Adm. Court | Constitutional Court |
 | ----- | ------------- | ------------------ | -------------------- |
