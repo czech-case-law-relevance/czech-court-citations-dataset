@@ -5,7 +5,14 @@ Czech Court Citations Dataset
 
 This is the Czech Court Citations dataset. This dataset contains citations of the court decisions extracted from texts of decisions of the three Czech apex courts - the Constitutional Court, the Supreme Court and the Supreme Administrative Court. 
 
-The Czech Court Citations Dataset contains 12 files in .csv data format, 4 files for each court, divided according to the three courts. In this dataset, abbreviations of the court names are used: 'ConCo' for the Constitutional Court, 'SupCo' for the Supreme Court and 'SupAdmCo' for the Supreme Administrative Court. Files are described according to the source judicial decision (from) and the goal judicial decision (to). For example 'ConCo-ref-SupCo' is a file containing all the extracted citations of the Supreme Court decisions from the Constitutional Court decisions. The dataset contains 3 files in the category of the "rest" citations, these files contain citations of any other public authority then the three Czech apex courts.
+The Czech Court Citations Dataset contains 21 files in .csv data format, 7 files for each court, divided according to the three courts. 
+
+File names
+
+In this dataset, abbreviations of the court names are used: 'ConCo' for the Constitutional Court, 'SupCo' for the Supreme Court and 'SupAdmCo' for the Supreme Administrative Court. Files are described according to the source judicial decision (from) and the goal judicial decision (to). For example 'ConCo-ref-SupCo' is a file containing all the extracted citations of the Supreme Court decisions from the Constitutional Court decisions. 
+The dataset contains 3 files in the category of the 'rest' citations, these files contain citations of any other public authority then the three Czech apex courts (for example 'ConCo-ref-rest').
+
+Content of the files
 
 Files contain unique rows, one citation for each row. Citations are accompanied by metadata:
 
