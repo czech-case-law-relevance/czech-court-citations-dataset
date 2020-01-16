@@ -1,18 +1,32 @@
 # czech-court-citations-dataset
 Dear visitor, please note that this page is still under construction. Thank you.
 
-Czech Court Citations Dataset
+## Czech Court Citations Dataset
 
 This is the Czech Court Citations dataset. This dataset contains citations of the court decisions extracted from texts of decisions of the three Czech apex courts - the Constitutional Court, the Supreme Court and the Supreme Administrative Court. 
 
 The Czech Court Citations Dataset contains 21 files in .csv data format, 7 files for each court, divided according to the three courts. 
 
-File names
+This dataset is properly described in: (to be published).
+
+### File names
 
 In this dataset, abbreviations of the court names are used: 'ConCo' for the Constitutional Court, 'SupCo' for the Supreme Court and 'SupAdmCo' for the Supreme Administrative Court. Files are described according to the source judicial decision (from) and the goal judicial decision (to). For example 'ConCo-ref-SupCo' is a file containing all the extracted citations of the Supreme Court decisions from the Constitutional Court decisions. 
 The dataset contains 3 files in the category of the 'rest' citations, these files contain citations of any other public authority then the three Czech apex courts (for example 'ConCo-ref-rest').
 
-Content of the files
+### File types
+
+The Czech Court Citations Dataset contains three different types of files: files with linked citations (9), files with unlinked citations (9) and files with citations from the 'rest' category (3).
+Files with linked citations are files containing citations of the three Czech apex courts that were merged with Czech Court Decisions Corpus and therefore these citations contain all the metadata.
+Files with unlinked citations are files containing citations of the three Czech apex courts that were not merged with Czech Court Decisions Corpus and therefore these citations do not contain all the metadata, only the docket number of the cited decision (reference).
+Files in the category of the 'rest' citations are files containing citations of any other public authority then the three Czech apex courts, therefore these citations do not contain all the metadata, only the docket number of the cited decision or document (reference).
+
+### Data statistics
+
+
+
+
+### Content of the files
 
 Files contain unique rows, one citation for each row. Citations are accompanied by metadata:
 
@@ -28,8 +42,11 @@ reference: the identification of a goal court decision
 
 source_file2: the name of a goal text file of the text of the court decision, this file can be found in the Czech Court Decisions Corpus
 
+date2: date of goal decision
 
-This dataset is properly described in: (to be published)
+court2: identification of court publishing the goal decision in abbreviation
+
+### Related corpora and publications
 
 For extraction of the court citations the Annotated Corpus of Czech Case Law for Reference Recognition Tasks, containing 
 350 manually annotated decisions for reference extraction of the Constitutional Court, the Supreme Court and the Supreme Administrative Court, was used as a training dataset for a machine learning algorithm. 
