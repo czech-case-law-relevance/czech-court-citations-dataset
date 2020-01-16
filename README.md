@@ -36,21 +36,21 @@ Files in the category of the *'rest' citations* are files containing citations o
 
 Files contain unique rows, one citation for each row. Citations are accompanied by metadata:
 
-source_file: the name of a source text file of the text of the decision, this file can be found in the Czech Court Decisions Corpus
+**source_file**: the name of a source text file of the text of the decision, this file can be found in the Czech Court Decisions Corpus
 
-docket_number: the identification of a source court decision
+**docket_number**: the identification of a source court decision
 
-date: date of source decision
+**date**: date of source decision
 
-court: identification of court publishing the source decision in abbreviation
+**court**: identification of court publishing the source decision in abbreviation
 
-reference: the identification of a goal court decision
+**reference**: the identification of a goal court decision
 
-source_file2: the name of a goal text file of the text of the court decision, this file can be found in the Czech Court Decisions Corpus (only available in files with *linked citations*)
+**source_file2**: the name of a goal text file of the text of the court decision, this file can be found in the Czech Court Decisions Corpus (only available in files with *linked citations*)
 
-date2: date of goal decision (only available in files with *linked citations*)
+**date2**: date of goal decision (only available in files with *linked citations*)
 
-court2: identification of court publishing the goal decision in abbreviation (only available in files with *linked citations*)
+**court2**: identification of court publishing the goal decision in abbreviation (only available in files with *linked citations*)
 
 ### Related corpora and publications
 
