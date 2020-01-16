@@ -46,11 +46,11 @@ court: identification of court publishing the source decision in abbreviation
 
 reference: the identification of a goal court decision
 
-source_file2: the name of a goal text file of the text of the court decision, this file can be found in the Czech Court Decisions Corpus
+source_file2: the name of a goal text file of the text of the court decision, this file can be found in the Czech Court Decisions Corpus (only available in files with *linked citations*)
 
-date2: date of goal decision
+date2: date of goal decision (only available in files with *linked citations*)
 
-court2: identification of court publishing the goal decision in abbreviation
+court2: identification of court publishing the goal decision in abbreviation (only available in files with *linked citations*)
 
 ### Related corpora and publications
 
@@ -75,4 +75,4 @@ This corpus is freely available at LINDAT/CLARIN repository: https://lindat.mff.
 
 ### Contact
 
-In the case of any further questions, please contact Jakub Harašta: jakub.harasta@law.muni.cz
+In the case of any further questions, please contact Jakub Harašta: jakub.harasta@law.muni.cz.
