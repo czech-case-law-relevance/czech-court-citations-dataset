@@ -39,11 +39,11 @@ References sorted by categories, unparsed
 
 References sorted by categories, parsed
 
-| Court | Supreme Court | Supreme Adm. Court | Constitutional Court
------ | ------------- | ------------------ | --------------------
-Supreme Court cites | 140 355 | 658 | 76 003
-Supreme Administrative Court cites | 1 191 | 84 728 | 13 473
-Constitutional Court cites | 7 474 | 2 168 | 133 148
+| Court | Supreme Court | Supreme Adm. Court | Constitutional Court |
+| ----- | ------------- | ------------------ | -------------------- |
+| Supreme Court cites | 140 355 | 658 | 76 003 |
+| Supreme Administrative Court cites | 1 191 | 84 728 | 13 473 |
+| Constitutional Court cites | 7 474 | 2 168 | 133 148 |
 
 ### Content of the files
 
