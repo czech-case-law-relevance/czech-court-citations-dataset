@@ -30,14 +30,14 @@ Files in the category of the *'rest' citations* are files containing citations o
 ### Data statistics
 
 References sorted by categories, unparsed
-|Court | Supreme Court | Supreme Adm. Court | Constitutional Court | Rest|
-|----- | ------------- | ------------------ | -------------------- | ----|
-|Supreme Court cites | 153 242 | 804 | 80 658 | 112 287|
-|Supreme Administrative Court cites | 1 342 | 90 217 | 14 756 | 20 709|
-|Constitutional Court cites | 8 486 | 2 877 | 137 308 | 45 689|
+| Court | Supreme Court | Supreme Adm. Court | Constitutional Court | Rest |
+| ----- | ------------- | ------------------ | -------------------- | ---- |
+| Supreme Court cites | 153 242 | 804 | 80 658 | 112 287 |
+| Supreme Administrative Court cites | 1 342 | 90 217 | 14 756 | 20 709 |
+| Constitutional Court cites | 8 486 | 2 877 | 137 308 | 45 689 |
 
 References sorted by categories, parsed
-Court | Supreme Court | Supreme Adm. Court | Constitutional Court
+| Court | Supreme Court | Supreme Adm. Court | Constitutional Court
 ----- | ------------- | ------------------ | --------------------
 Supreme Court cites | 140 355 | 658 | 76 003
 Supreme Administrative Court cites | 1 191 | 84 728 | 13 473
