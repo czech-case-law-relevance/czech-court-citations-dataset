@@ -7,7 +7,7 @@ This is the Czech Court Citations dataset. This dataset contains citations of th
 
 The Czech Court Citations Dataset contains 21 files in .csv data format, 7 files for each court, divided according to the three courts. 
 
-This dataset is properly described in: (to be published).
+This dataset is properly described in: HARAŠTA, Jakub, Tereza NOVOTNÁ a Jaromír ŠAVELKA. Citation Data of Czech Apex Courts. : arXiv:2002.02224, 2020. 7 s. ISSN 2331-8422.
 
 ### File names
 
@@ -88,4 +88,4 @@ This corpus is freely available at LINDAT/CLARIN repository: https://lindat.mff.
 
 ### Contact
 
-In the case of any further questions, please contact Jakub Harašta: jakub.harasta@law.muni.cz.
+In the case of any further questions, please contact Jakub Harašta or Tereza Novotná: jakub.harasta@law.muni.cz, tereza.novotna@mail.muni.cz.
