@@ -9,14 +9,6 @@ The Czech Court Citations Dataset contains 21 files in .csv data format, 7 files
 
 This dataset is properly described in: HARAŠTA, Jakub, Tereza NOVOTNÁ a Jaromír ŠAVELKA. Citation Data of Czech Apex Courts. : arXiv:2002.02224, 2020. 7 p. ISSN 2331-8422.
 
-### File names
-
-In this dataset, abbreviations of the court names are used: 'ConCo' for the Constitutional Court, 'SupCo' for the Supreme Court and 'SupAdmCo' for the Supreme Administrative Court. Files are described according to the source judicial decision (from) and the goal judicial decision (to). For example 'ConCo-ref-SupCo' is a file containing all the extracted *linked citations* (references with metadata) of the Supreme Court decisions from the Constitutional Court decisions. 
-
-Files with '-unlinked' extension contain *unlinked citations* (references without metadata).
-
-The dataset contains 3 files in the category of the *'rest' citations*, these files contain citations of any other public authority then the three Czech apex courts (for example 'ConCo-ref-rest').
-
 ### File types
 
 The Czech Court Citations Dataset contains three different types of files: files with *linked citations* (9), files with *unlinked citations* (9) and files with citations from the *'rest' category* (3).
@@ -26,6 +18,15 @@ Files with *linked citations* are files containing citations of the three Czech 
 Files with *unlinked citations* are files containing citations of the three Czech apex courts that were not merged with Czech Court Decisions Corpus and therefore these citations do not contain all the metadata, only the docket number of the cited decision (reference).
 
 Files in the category of the *'rest' citations* are files containing citations of any other public authority then the three Czech apex courts, therefore these citations do not contain all the metadata, only the docket number of the cited decision or document (reference).
+
+### File names
+
+In this dataset, abbreviations of the court names are used: 'ConCo' for the Constitutional Court, 'SupCo' for the Supreme Court and 'SupAdmCo' for the Supreme Administrative Court. Files are described according to the source judicial decision (from) and the target judicial decision (to) in the form of <source>-ref-<target>[-unlinked].csv or <source>-ref-rest.csv.
+For example 'ConCo-ref-SupCo.csv' is a file containing all the extracted *linked citations* (references with metadata) of the Supreme Court decisions from the Constitutional Court decisions. 
+
+Files with '-unlinked' extension contain *unlinked citations* (references without metadata).
+
+The dataset contains 3 files in the category of the *'rest' citations*, these files contain citations of any other public authority then the three Czech apex courts (for example 'ConCo-ref-rest.csv').
 
 ### Data statistics
 
@@ -47,23 +48,23 @@ References sorted by categories, *linked*
 
 ### Content of the files
 
-Files contain unique rows, one citation for each row. Citations are accompanied by metadata:
+Files contain unique rows, one citation per each row. Citations are accompanied by metadata:
 
-**source_file**: the name of a source text file of the text of the decision, this file can be found in the Czech Court Decisions Corpus
+**source_file**: the name of a source .txt file of the text of the decision, this file can be found in the Czech Court Decisions Corpus
 
 **docket_number**: the identification of a source court decision
 
-**date**: date of source decision
+**date**: date of source decision in the form of YYYY-MM-DD
 
 **court**: identification of court publishing the source decision in abbreviation
 
-**reference**: the identification of a goal court decision
+**reference**: the identification of a target court decision
 
-**source_file2**: the name of a goal text file of the text of the court decision, this file can be found in the Czech Court Decisions Corpus (only available in files with *linked citations*)
+**source_file2**: the name of a target text file of the text of the court decision, this file can be found in the Czech Court Decisions Corpus (only available in files with *linked citations*)
 
-**date2**: date of goal decision (only available in files with *linked citations*)
+**date2**: date of target decision (only available in files with *linked citations*) in the form of YYYY-MM-DD
 
-**court2**: identification of court publishing the goal decision in abbreviation (only available in files with *linked citations*)
+**court2**: identification of court publishing the target decision in abbreviation (only available in files with *linked citations*)
 
 ### Related corpora and publications
 
