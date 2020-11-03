@@ -1,4 +1,4 @@
-soubor,spisovka,datum,soud,reference,soubor2,datum2,soud2
+source_file,docket_number,date,court,reference,source_file2,date2,court2
 2-19-16_1.txt, II. US 19/16, 2016-08-01,ConCo,Cpjn 206/2010,rozhodnuti-Cpjn_206_2010.txt,2011-04-13,SupCo
 2-680-06_1.txt, II. US 680/06, 2007-04-19,ConCo,30 Cdo 85/2005,rozhodnuti-30_Cdo_85_2005.txt,2005-02-22,SupCo
 2-427-06_1.txt, II. US 427/06, 2007-07-26,ConCo,3 Tdo 348/2006,rozhodnuti-3_Tdo_348_2006.txt,2006-04-05,SupCo

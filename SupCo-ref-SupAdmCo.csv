@@ -1,4 +1,4 @@
-soubor,spisovka,datum,soud,reference,soubor2,datum2,soud2
+source_file,docket_number,date,court,reference,source_file2,date2,court2
 rozhodnuti-11_Tdo_1295_2010.txt,11 Tdo 1295/2010,2011-01-31,SupCo,2 As 78/2006,0078_2As__0600064A_prevedeno.txt,2007-05-16,SupAdmCo
 rozhodnuti-28_Cdo_691_2010.txt,28 Cdo 691/2010,2011-11-09,SupCo,5 As 17/2007-60,0017_5As__0700060A_prevedeno.txt,2007-06-26,SupAdmCo
 rozhodnuti-28_Cdo_691_2010.txt,28 Cdo 691/2010,2011-11-09,SupCo,4 As 47/2003,0047_4As__0300136A_prevedeno.txt,2004-12-20,SupAdmCo
