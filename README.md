@@ -87,6 +87,7 @@ This corpus is properly described in: NOVOTNÁ, Tereza a Jakub HARAŠTA. The Cze
 
 This corpus is freely available at LINDAT/CLARIN repository: https://lindat.mff.cuni.cz/repository/xmlui/handle/11372/LRT-3052.
 
-### Contact
+### Licence terms and contacts
+This dataset is available under Creative Commons Attribution 4.0 International (CC BY 4.0) licence (available at: https://creativecommons.org/licenses/by/4.0/).
 
 In the case of any further questions, please contact Jakub Harašta or Tereza Novotná: jakub.harasta@law.muni.cz, tereza.novotna@mail.muni.cz.
